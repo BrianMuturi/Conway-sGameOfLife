@@ -7,6 +7,7 @@ namespace Conway_sGameOfLife
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
         }
     }
 }
