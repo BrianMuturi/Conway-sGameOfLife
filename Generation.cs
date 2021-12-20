@@ -81,11 +81,11 @@ namespace Conway_sGameOfLife
         }
 
         // population density
-        public Generation(bool[,] grid, int x, int y)
+        public Generation(bool[,] grid, double density)
         {
             this.grid = grid;
             Random generator = new Random();
-            double density = (initialAliveCellsCount * 100) / 400;
+            density = (initialAliveCellsCount * 100) / 400;
             Console.WriteLine(density);
 
            for (int i = 0; i < density; i++)
